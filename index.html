@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Transition Animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <div class="container">
+        <button class="btn">
+            <span class="icon icon-anim">
+                <img class="imagekit" width="48" height="48" src="spoon.png" alt="">
+                <div class="clock">
+                    <div class="hour"></div>
+                    <div class="minute"></div>
+                    <svg id="tick" xmlns="http://www.w3.org/2000/svg" viewBox="10 0 120 120" width="60px" height="60px">
+                        <g fill="none" stroke="#22AE73" stroke-width="2">
+                          <polyline class="st0" stroke="#02B867" stroke-width="10" points="43.5,77.8 63.7,97.9 112.2,49.4 "
+                            style="stroke-dasharray:100px, 100px; stroke-dashoffset: 200px;"></polyline>
+                        </g>
+                      </svg>
+                </div>
+
+                <img class="imagekit" width="48" height="48" src="knife.png" alt="">
+            </span>
+
+            <span class="text">Confirm Reservation</span>
+        </button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
